@@ -1,0 +1,46 @@
+.footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color: white;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    color: #2F454F;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: linear-gradient(left, #f0f0f0, #fee880, #f0f0f0);
+    padding-bottom: 30px;
+}
+
+.text_quote {
+    font-family: 'Montserrat', sans-serif;
+    color: #A1CE75;
+}
+
+.logo {
+    padding-top: 100px; 
+    padding-bottom: 60px; 
+
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+    .video-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
