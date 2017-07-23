@@ -62,6 +62,18 @@ button{
 	transition: all 0.3s; 
 	outline: none; 
 }
+.back {
+    border: none;
+    text-transform: uppercase;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    color: red;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
 button:hover{
 	color: white; 
 	background-color: steelblue; 
